@@ -1,0 +1,116 @@
+
+.app-container {
+  text-align: center;
+  padding: 20px;
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(135deg, #8fcfdd, #3b87f2);
+  color: #fff;
+  min-height: 100vh;
+}
+
+h1 {
+  color: #fff;
+  margin-bottom: 30px;
+  font-size: 2.5rem;
+  text-shadow: 2px 2px 4px rgba(218, 194, 194, 0.5);
+}
+
+.quiz-container {
+  background: #2b2020;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color: #f3eded;
+}
+
+.question-container {
+  margin-bottom: 30px;
+}
+
+.question-container h2 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  color: #007bff;
+  text-shadow: 1px 1px 3px rgba(62, 59, 59, 0.3);
+}
+
+.options button {
+  display: block;
+  margin: 15px auto;
+  padding: 15px;
+  border: none;
+  border-radius: 12px;
+  background: #e5e7ea;
+  color: #1d1a1a;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.3s, box-shadow 0.3s;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.options button:hover {
+  background: #0056b3;
+  transform: scale(1.05);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4);
+}
+
+.options button:active {
+  background: #003d7a;
+  transform: scale(1);
+}
+
+.timer {
+  font-size: 1.4rem;
+  margin-bottom: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 10px;
+  border-radius: 8px;
+  color: #f61414;
+}
+
+.result-container {
+  margin-top: 30px;
+}
+
+.result-container h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #007bff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.play-again-button {
+  padding: 15px 30px;
+  border: none;
+  border-radius: 12px;
+  background: #28a745;
+  color: #e0c3c3;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.3s, box-shadow 0.3s;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.play-again-button:hover {
+  background: #218838;
+  transform: scale(1.05);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4);
+}
+
+.play-again-button:active {
+  background: #1e7e34;
+  transform: scale(1);
+}
+
+@media (max-width: 600px) {
+  .options button {
+    width: 90%;
+    margin: 10px auto;
+    padding: 12px;
+  }
+
+  .play-again-button {
+    width: 90%;
+    padding: 12px;
+  }
+}
